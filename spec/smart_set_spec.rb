@@ -44,8 +44,7 @@ describe SmartSet do
 		    expect(@smart.arr_ele).not_to include(a_kind_of(Float))
 		end
 		it 'output' do
-			@smart.find_smart_set(0, 3,[1,3,4])
-			# .should match_array([1,3])
+			@smart.find_smart_set(1, 3,[1,3,4]).should match_array([1,3])
 		end
 	end
 	
