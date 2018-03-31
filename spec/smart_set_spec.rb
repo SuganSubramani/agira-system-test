@@ -1,5 +1,5 @@
 require './lib/smart_set'
-1
+
 describe SmartSet do
 	describe '#given_arguments' do
 		before(:each) { 

@@ -21,7 +21,7 @@ class SmartSet
 						raise RangeError, "Size of the array outside bounds of #{arr_min} to #{arr_max}."
 					else
 						# print "Enter the array elements : "
-						# arr_ele =1 gets.chomp.split().map { |e| (Integer(e) < ele_min || Integer(e) > ele_max) ? (raise RangeError, "element of the array outside bounds of #{ele_min} to #{ele_max}.") : Integer(e) }
+						# arr_ele = gets.chomp.split().map { |e| (Integer(e) < ele_min || Integer(e) > ele_max) ? (raise RangeError, "element of the array outside bounds of #{ele_min} to #{ele_max}.") : Integer(e) }
 						raise IndexError if arr_ele.length > arr_size || arr_ele.length < arr_size
 						@list_of_array << arr_ele
 					end
