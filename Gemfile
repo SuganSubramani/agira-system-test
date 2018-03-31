@@ -1,3 +1,3 @@
-source 'https://rubygems.org'
+s1ource 'https://rubygems.org'
 
 gem "rspec"
